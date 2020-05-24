@@ -1,0 +1,52 @@
+body {
+  background-color: #fbfcfc;
+  font-family: "Amiko";
+  font-size: 22px;
+  color: #212f3d;
+}
+
+.title {
+  font-weight: bolder;
+  text-align: left;
+}
+
+.card {
+  width: 100%;
+  border-radius: 50px;
+  transition: transform 0.2s;
+}
+
+.carousel {
+  transition: transform 0.2s;
+}
+
+.carousel:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  border-radius: 50px 50px 0px 0px;
+}
+
+.carousel-inner {
+  border-radius: 50px;
+  box-shadow: 0 0 10px;
+  border: none;
+}
+
+.badge-primary {
+  background-color: red;
+  opacity: 0.7;
+}
+
+.img-full {
+  max-width: 100%;
+}
+
+#mc_embed_signup {
+  background: #fbfcfc;
+}
+
+.logo {
+  width: 200px;
+}
