@@ -1,13 +1,10 @@
 from psycopg2 import connect, extensions, sql
 import pandas as pd
+import os
 
 # declare a new PostgreSQL connection object
-conn = connect(
-    dbname="rent",
-    user="antonio",
-    host="localhost",
-    password="antonio"
-)
+DATABASE_URL = os.environ['DATABASE_URL']
+conn = connect(DATABASE_URL)
 
 cursor = conn.cursor()
 
