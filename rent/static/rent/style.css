@@ -45,6 +45,19 @@ body {
 
 #mc_embed_signup {
   background: #fbfcfc;
+  font: 50px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup .button {
+  background-color: #00872c !important;
+  height: 52px !important;
+  font-size: 25px !important;
+  border-radius: 10px !important;
+}
+
+#mc_embed_signup input.email {
+  height: 52px !important;
+  font-size: 25px !important;
 }
 
 .logo {
