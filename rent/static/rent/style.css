@@ -43,6 +43,10 @@ body {
   max-width: 100%;
 }
 
+.card-img-top {
+  height: 400px;
+}
+
 #mc_embed_signup {
   background: #fbfcfc;
   font: 50px Helvetica, Arial, sans-serif;
