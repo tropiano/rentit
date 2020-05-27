@@ -67,3 +67,10 @@ body {
 .logo {
   width: 200px;
 }
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+  font-size: 60px;
+  color: red;
+  opacity: 0.99;
+}
